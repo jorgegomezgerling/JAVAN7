@@ -1,0 +1,14 @@
+package exception;
+
+public class ProductoException extends Exception {
+    private String message;
+
+    public ProductoException(String message) {
+        this.message = message;
+    }
+
+    @Override
+    public String getMessage() {
+        return message;
+    }
+}
